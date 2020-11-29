@@ -1,3 +1,4 @@
+import 'package:Social_Media_App_UI/screens/home_screen.dart';
 import 'package:Social_Media_App_UI/widgets/curve_clipper.dart';
 import 'package:flutter/material.dart';
 
@@ -67,7 +68,12 @@ class _LoginScreenState extends State<LoginScreen> {
               ),
               SizedBox(height: 20.0),
               GestureDetector(
-                onTap: () {},
+                onTap: () => Navigator.pushReplacement(
+                  context,
+                  MaterialPageRoute(
+                    builder: (_) => HomeScreen(),
+                  ),
+                ),
                 child: Container(
                   margin: EdgeInsets.symmetric(horizontal: 70.0),
                   alignment: Alignment.center,
