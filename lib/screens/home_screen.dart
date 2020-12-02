@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+import 'package:Social_Media_App_UI/data/data.dart';
+import 'package:Social_Media_App_UI/widgets/following_users.dart';
+
 class HomeScreen extends StatefulWidget {
   @override
   _HomeScreenState createState() => _HomeScreenState();
@@ -44,14 +47,15 @@ class _HomeScreenState extends State<HomeScreen>
           ),
           unselectedLabelStyle: TextStyle(fontSize: 18.0),
           tabs: [
-            Tab(
-              text: 'Trending',
-            ),
-            Tab(
-              text: 'Latest',
-            ),
+            Tab(text: 'Trending'),
+            Tab(text: 'Latest'),
           ],
         ),
+      ),
+      body: ListView(
+        children: [
+          FollowingUsers(),
+        ],
       ),
     );
   }
