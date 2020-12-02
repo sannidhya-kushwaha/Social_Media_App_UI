@@ -13,7 +13,7 @@ class FollowingUsers extends StatelessWidget {
           child: Text(
             'Following',
             style: TextStyle(
-              fontSize: 24.0,
+              fontSize: 20.0,
               fontWeight: FontWeight.bold,
               letterSpacing: 2.0,
             ),
