@@ -1,3 +1,4 @@
+import 'package:Social_Media_App_UI/widgets/custom_drawer.dart';
 import 'package:Social_Media_App_UI/widgets/posts_carousel.dart';
 import 'package:flutter/material.dart';
 
@@ -55,6 +56,7 @@ class _HomeScreenState extends State<HomeScreen>
           ],
         ),
       ),
+      drawer: CustomDrawer(),
       body: ListView(
         children: [
           FollowingUsers(),
