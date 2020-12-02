@@ -5,7 +5,7 @@
 <img src="https://user-images.githubusercontent.com/73152930/100853983-6944c300-34ae-11eb-95da-7c7bf3f66a85.png" width="300">
 <img src="https://user-images.githubusercontent.com/73152930/100854096-8f6a6300-34ae-11eb-9055-8e8649d918ef.png" width="300">
 <img src="https://user-images.githubusercontent.com/73152930/100854111-95f8da80-34ae-11eb-9a0c-e73b37b0e616.png" width="300">
-<img src="" width="300">
+<img src="https://user-images.githubusercontent.com/73152930/100854244-be80d480-34ae-11eb-8912-f63dfc572e8b.gif" width="300">
 
 
 A new Flutter Social Media App project 
